@@ -9,3 +9,12 @@ requirement :
 
 
 ## example playbook
+
+========================
+- hosts: mysql
+  become: yes
+  vars_files:
+   - config.yml
+  roles:
+   - mysql-replication
+========================
