@@ -1,0 +1,19 @@
+## login master database ##
+master_user: root
+master_pass: test123
+
+## login slave database
+slave_user: root
+slave_pass: test123
+
+## credential replication ##
+user: replica
+pass: test123
+
+ipmaster: 192.168.0.1
+ipslave: 192.168.0.2
+
+## configuration ##
+master_log_pos: 4
+conf: /etc/mysql/mysql.conf.d/mysqld.cnf
+logbin: /var/log/mysql/mysql-bin.log
