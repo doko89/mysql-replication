@@ -17,3 +17,5 @@ requirement :
   roles:
    - mysql-replication
 ```
+
+for example config.yml you can copy from default main.yml
